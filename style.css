@@ -1,0 +1,137 @@
+body
+{
+    margin:0px;
+    padding:0px;
+
+}
+#container
+{
+    width:80em;
+    margin:auto;
+}
+#header
+{
+    font-size: 6em;
+    text-align: center;
+    width:100%;
+    height:2em;
+    font-family: 'Gilda Display', serif;
+
+}
+#contaktinfo
+{
+    width:100%;
+    height:2em;
+    margin-top: 5em;
+    background-color: rgb(182, 180, 180);
+    display: flex;
+    flex-direction:row;
+    justify-content:center;
+    font-family: 'Trirong', serif;
+
+}
+#contaktinfo > div
+{
+    color:rgb(255, 255, 255);  
+    height:3em;
+}
+#contaktinfo > div > p
+{
+    color:rgb(255, 255, 255);  
+    font-size: 1em;
+    margin-right: 4em;
+    margin-top:0.4em;
+}
+#contaktinfo > div > i
+{
+    color:white;
+    margin-right: 0.3em;
+    margin-left: 4em;
+    margin-top:0.45em;
+}
+#namndiv
+{
+    width:100%;
+    height:10em;
+    margin-top: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Trirong', serif;
+}
+#namndiv > div
+{
+    margin-left:auto;
+    margin-right: auto;
+    margin-bottom:0px;
+}
+#namndiv > div > h1
+{
+    font-size:3.5em; 
+}
+#content
+{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 40em;
+    font-family: 'Trirong', serif;
+}
+#leftbox
+{
+    width:80%;
+    background-color: lightblue;
+}
+#rightbox
+{
+    width:20%;
+    padding:1em;
+    border:2px solid rgb(182, 180, 180);
+}
+#rightbox > div > img
+{
+    width:15.4em;
+    height:15em;
+    margin:5px;
+}
+h1
+{
+    padding:0px;
+    margin:0px;
+}
+h2
+{
+    padding:0px;
+    margin:0px;
+}
+p
+{
+    padding:0px;
+    margin:0px;
+}
+i
+{
+    padding:0px;
+    margin:0px;
+}   
+h5
+{
+    padding:0px;
+    margin:0px;   
+}
+h3
+{
+    padding:0px;
+    margin:0px;   
+}
+h4
+{
+    padding:0px;
+    margin:0px;   
+}
+  
+div
+{
+    margin:0px;
+    padding:0px;
+}
