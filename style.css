@@ -47,13 +47,14 @@ body
     color:white;
     margin-right: 0.3em;
     margin-left: 4em;
-    margin-top:0.45em;
+    margin-top:0.75em;
 }
 #namndiv
 {
     width:100%;
     height:10em;
     margin-top: 1em;
+    margin-bottom: 2em;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -76,11 +77,13 @@ body
     width: 100%;
     height: 40em;
     font-family: 'Trirong', serif;
+    margin-bottom: 10em;
 }
 #leftbox
 {
     width:80%;
-    background-color: lightblue;
+    padding-left:3em;
+    padding-right:3em;
 }
 #rightbox
 {
@@ -94,6 +97,11 @@ body
     height:15em;
     margin:5px;
 }
+footer
+{
+    width: 100%;
+}
+
 h1
 {
     padding:0px;
