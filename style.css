@@ -10,24 +10,36 @@ body
 }
 #header
 {
-    font-size: 6em;
+    margin-bottom:10em;
+    margin-top:1em;
     text-align: center;
     width:100%;
-    height:2em;
+    height:10em;
     font-family: 'Gilda Display', serif;
-
+}
+#headernamn
+{
+    font-size: 5em;
+}
+#headertitel
+{
+    font-size: 1.3em;  
+}
+#header > hr
+{
+    width:20em;
 }
 #contaktinfo
 {
     width:100%;
     height:2em;
     margin-top: 5em;
+    margin: auto;
     background-color: rgb(182, 180, 180);
     display: flex;
     flex-direction:row;
     justify-content:center;
     font-family: 'Trirong', serif;
-
 }
 #contaktinfo > div
 {
@@ -75,27 +87,31 @@ body
     width: 100%;
     height: 50em;
     font-family: 'Trirong', serif;
-    margin-bottom: 15em;
+    margin-bottom: 17em;
+    margin-top:1em;
 }
 #leftbox
 {
-    width:76%;
-    padding-left:3em;
+    width:70%;
+    padding-left:0em;
     padding-right:3em;
 }
 #rightbox
 {
-    width:24%;
-    border:2px solid rgb(182, 180, 180);
+    width:30%;
     display:flex;
     flex-direction: column;
+    height:100%;
+    text-align: center;
 }
 #rightbox > div > img
 {
-    width:15.4em;
-    height:15em;
-    margin:5px;
-    border-radius: 50%;
+    width:100%;
+    height:100%;
+    border-radius: 30%;
+    border:1px solid rgb(182, 180, 180);
+    margin-bottom:1em;
+    margin-top:0.7em;
 }
 #rightboxtext
 {
@@ -108,8 +124,8 @@ body
     width: 100%;
     text-align: center;
     font-family: 'Trirong', serif;
+    background-color: rgb(182, 180, 180);
 }
-
 h1
 {
     padding:0px;
@@ -146,5 +162,3 @@ i
     padding:0px;
     margin:0px;
 }   
-
-
