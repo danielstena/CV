@@ -2,11 +2,10 @@ body
 {
     margin:0px;
     padding:0px;
-
 }
 #container
 {
-    max-width:80em;
+    width:90%;
     margin:auto;
 }
 #header
@@ -76,20 +75,20 @@ body
     width: 100%;
     height: 50em;
     font-family: 'Trirong', serif;
-    margin-bottom: 10em;
+    margin-bottom: 15em;
 }
 #leftbox
 {
-    width:80%;
+    width:76%;
     padding-left:3em;
     padding-right:3em;
 }
 #rightbox
 {
-    width:20%;
-    padding:1em;
+    width:24%;
     border:2px solid rgb(182, 180, 180);
-    background-color: rgb(182, 180, 180);
+    display:flex;
+    flex-direction: column;
 }
 #rightbox > div > img
 {
@@ -98,12 +97,17 @@ body
     margin:5px;
     border-radius: 50%;
 }
+#rightboxtext
+{
+    background-color: rgb(182, 180, 180);
+    width:100%;
+    height: 100%;
+}
 #footer
 {
     width: 100%;
     text-align: center;
     font-family: 'Trirong', serif;
-
 }
 
 h1
