@@ -262,7 +262,7 @@ hr
     width:100%
 }
 }
-@media only screen and (max-width: 1080px) {
+@media only screen (min-width: 800px) and (max-width: 1080px) {
     .mobilskugga
     {
         background-color: rgb(230, 225, 225);
