@@ -1,0 +1,266 @@
+body
+{
+    margin:0px;
+    padding:0px;
+}
+#container
+{
+    max-width:90%;
+    margin:auto;
+
+}
+#header
+{
+    margin-bottom:10em;
+    margin-top:1em;
+    text-align: center;
+    width:100%;
+    height:10em;
+    font-family: 'Gilda Display', serif;
+}
+#headernamn
+{
+    font-size: 5em;
+}
+#headertitel
+{
+    font-size: 1.3em; 
+}
+hr
+{
+    width:20em;
+}
+#contaktinfo
+{
+    width:100%;
+    height:2em;
+    margin-top: 5em;
+    margin: auto;
+    background-color: rgb(182, 180, 180);
+    display: flex;
+    flex-direction:row;
+    justify-content:center;
+    font-family: 'Trirong', serif;
+}
+#contaktinfo > div
+{
+    color:rgb(255, 255, 255);  
+    height:3em;
+}
+#contaktinfo > div > p
+{
+    color:rgb(255, 255, 255);  
+    font-size: 1em;
+    margin-right: 4em;
+    margin-top:0.2em;
+}
+#contaktinfo > div > i
+{
+    color:white;
+    margin-right: 0.3em;
+    margin-left: 3em;
+}
+#content
+{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 50em;
+    font-family: 'Gilda Display', serif;
+    margin-bottom: 5%;
+    margin-top:1em;
+}
+#leftbox
+{
+    width:70%;
+    margin-left:1em;
+    padding-right:3em;
+    font-family: 'Gilda Display', serif;
+}
+.rightboxkontaktinfo{
+    margin-top:10%;
+}
+.rightboxadress{
+    margin-top:10%;
+    margin-bottom:10%;
+}
+.rightboxpersonuppgifter{
+    margin-top:10%;
+    margin-bottom:10%;
+}
+#rightbox
+{
+    width:30%;
+    display:flex;
+    flex-direction: column;
+    height:100%;
+    text-align: center;
+}
+#rightbox > div > img
+{
+    width:100%;
+    height:100%;
+    border-radius: 30%;
+    border:1px solid rgb(182, 180, 180);
+}
+#rightboxtext
+{
+    background-color: rgb(182, 180, 180);
+    width:100%;
+    height: 100%;
+    margin-top: 10%;
+}
+#footer
+{
+    width: 100%;
+    text-align: center;
+    font-family: 'Gilda Display', serif;
+    background-color: rgb(182, 180, 180);
+    margin-bottom:5px;
+}
+h3
+{
+    padding:0px;
+    margin:0px;
+    font-size: 0.9em;   
+}
+h1, h2, h4, h5, p, i
+{
+    padding:0px;
+    margin:0px;   
+} 
+#mobilbild
+{
+    display:none;
+}
+.mobilskugga
+{
+    background-color: white;
+}
+/*iphone*/
+
+@media only screen and (max-width: 600px) {
+.mobilskugga, #rightboxtext
+{
+    background-color: rgb(230, 225, 225);
+}
+body
+{
+    width:100%;
+    padding:0px;
+}
+#container
+{
+    width:95%;
+}
+#header
+{
+    margin-bottom:0%;
+    margin-top:5%;
+    text-align: center;
+    width:100%;
+    height:10em;
+}
+#headernamn
+{
+    font-size:1.4em;
+}
+#headertitel{
+    font-size: 0.8em;
+    height:50%;
+}
+#contaktinfo
+{
+    width:99%;
+    padding:0px;
+    margin-top:5px;
+    margin-bottom: 50px;
+    display: none;
+}
+#mobilbildiv
+{
+    width:100%;
+    height:150px;
+    margin-bottom:2em;
+    text-align: center;
+}
+#mobilbild
+{
+    display: inline-block;
+}
+#mobilbild > img
+{
+    display: inline-block;
+    width: 9em;
+    height: 9em;
+    border-radius: 30px;
+    margin-top:5%;
+    margin-bottom:5%;
+}
+#content
+{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    margin-bottom:0px;
+}
+#leftbox
+{
+    text-align: center;
+    width: 90%;
+    font-size: 70%;
+    margin:auto;
+    padding:0px;
+}
+#rightbox > div > img
+{
+    display: none;
+}
+#footer
+{
+    width: 100%;
+    font-size: 0.6em;
+}
+hr
+{
+    width:100%
+}
+#leftbox, #rightbox
+{
+    flex:100%;
+}
+#content
+{
+    display: flex;
+    flex-direction: column;
+}
+#leftbox
+{
+        order:1;
+        margin-bottom:5em;
+}
+#rightbox
+{
+        order:2;
+        width: 90%;
+        margin-bottom:10em;
+        margin:auto;
+}
+#rightboxtext
+{
+    background-color: rgb(230, 225, 225);
+}
+#footer{
+    margin-top:5em;
+    background-color: rgb(230, 225, 225);
+}
+h5
+{
+    font-size: 0.8em;
+}}
+@media only screen and (min-width: 800px){
+    #header{
+        font-size: 70%;
+    }
+}
