@@ -18,7 +18,7 @@ body
     font-family: 'Gilda Display', serif;
 }
 #headernamn{
-    font-size: 5em;
+    font-size: 6.5vh;
 }
 #headertitelbanner
 {
@@ -41,6 +41,7 @@ hr
     font-family: 'Trirong', serif;
     padding:5px 0px 5px 0px;
 }
+
 #contaktinfo > div
 {
     color:rgb(255, 255, 255);  
@@ -50,9 +51,8 @@ hr
 #contaktinfo > div > p
 {
     color:rgb(255, 255, 255);  
-    font-size: 1em;
-    margin-right: 4em;
-    margin-top:0.2em;
+    font-size: 2.4vh;
+    margin-right: 50%;
 }
 #contaktinfo > div > i
 {

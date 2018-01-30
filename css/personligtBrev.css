@@ -21,8 +21,8 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width:940px;
-    background-color:rgba(255, 255, 255, 0.575);
+    width:75vw;
+    background-color:rgba(255, 255, 255, 0.712);
     font-family: 'Kavivanar', cursive;
     padding:0px 50px 0px 50px;
 }
@@ -55,8 +55,8 @@ body{
 /* TYPING TEXT CSS  */
 .textSwe p, .textEng p {
     border-right: .15em solid orange;
-    font-family: "Courier";
-    font-size: 13px;
+    font-family: 'Kavivanar', cursive;
+    font-size: 2.5vh;
     white-space: nowrap;
     overflow: hidden;
   }
@@ -69,7 +69,7 @@ body{
   }
   
   .textSwe p:nth-child(2), .textEng p:nth-child(2)  {
-    width: 750px;
+    width: 46vw;
     opacity: 0;
     -webkit-animation: type2 2s steps(80, end);
     animation: type2 2s steps(40, end);
@@ -80,7 +80,7 @@ body{
   }
   
   .textSwe p:nth-child(3), .textEng p:nth-child(3) {
-    width: 970px;
+    width: 61vw;
     opacity: 0;
     -webkit-animation: type2 2s steps(80, end);
     animation: type2 2s steps(40, end);
@@ -90,7 +90,7 @@ body{
     animation-fill-mode: forwards;
   }
   .textSwe p:nth-child(4), .textEng p:nth-child(4) {
-    width: 969px;
+    width: 80vw;
     opacity: 0;
     -webkit-animation: type2 2s steps(80, end);
     animation: type2 2s steps(40, end);
@@ -100,7 +100,7 @@ body{
     animation-fill-mode: forwards;
   }
   .textSwe p:nth-child(5), .textEng p:nth-child(5) {
-    width:450px;
+    width:32vw;
     opacity: 0;
     -webkit-animation: type3 5s steps(20, end), blink .5s step-end infinite alternate;
     animation: type3 2s steps(20, end), blink .5s step-end infinite alternate;
