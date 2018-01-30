@@ -16,7 +16,7 @@ body{
     font-size: 15px;
     margin-bottom:15px;
 }
-.textSwe, #textEng{
+.textSwe, .textEng{
     margin:auto;
     display: flex;
     flex-direction: column;
