@@ -1,9 +1,12 @@
 body{
     background-image: url("../bilder/backpersonligt.jpg");
     background-size: cover;
+    max-width: 1280px;
+    margin: auto;
+    
 }
 #wrapper{
-    margin-top:40px;
+    margin-top:140px;
     max-width:1280px;
 }
 #back{
