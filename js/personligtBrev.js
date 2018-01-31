@@ -39,10 +39,10 @@ function eng(){
 
     $("#wrapper").empty()
     var html ="";
-    html += '<div class="textEng"><h1>Hi!</h1><p style="width:">I am studying web development in e-commerce at the media institute in Gothenburg.</p>'
-    html += '<p>In autumn 2018, we will conduct internships (LIA) in the appropriate areas of work for the education.</p>'
-    html += '<p> My requirement for you as an employer is that I can practice and execute tasks for you in programming and web design.</p>'
-    html += ' <p>Do you have any suitable place for me on at your company?</p>'
+    html += '<div class="textEng"><h1>Hi!</h1><p style="width:90vh">I am studying web development in e-commerce at the media institute in Gothenburg.</p>'
+    html += '<p style="width:110vh">In autumn 2018, we will conduct internships (LIA) in the appropriate areas of work for the education.</p>'
+    html += '<p>My requirement for you as an employer is that I can practice and execute tasks for you in programming and web design.</p>'
+    html += '<p  style="width:65vh">Do you have any suitable place for me on at your company?</p>'
     html += '<div id="buttons"><button id="back"onclick="backToLanguage()">Språk</button>'
     html += '<a href="index.html"><button id="back">CV</button></a></div></div>'
     $('#textEng').animate( { width: spanWidth }, 3000 );

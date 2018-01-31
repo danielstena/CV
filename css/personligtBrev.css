@@ -59,9 +59,10 @@ body{
     font-size: 2.5vh;
     white-space: nowrap;
     overflow: hidden;
+    margin:0px;
   }
   .textSwe p:nth-child(1), .textEng p:nth-child(1)  {
-    width: 50px;
+    width: 28px;
     -webkit-animation: type 2s steps(40, end);
     animation: type 2s steps(40, end);
     -webkit-animation-fill-mode: forwards;
@@ -69,7 +70,7 @@ body{
   }
   
   .textSwe p:nth-child(2), .textEng p:nth-child(2)  {
-    width: 46vw;
+    width: 40vw;
     opacity: 0;
     -webkit-animation: type2 2s steps(80, end);
     animation: type2 2s steps(40, end);
@@ -80,7 +81,7 @@ body{
   }
   
   .textSwe p:nth-child(3), .textEng p:nth-child(3) {
-    width: 61vw;
+    width: 54vw;
     opacity: 0;
     -webkit-animation: type2 2s steps(80, end);
     animation: type2 2s steps(40, end);
@@ -90,7 +91,7 @@ body{
     animation-fill-mode: forwards;
   }
   .textSwe p:nth-child(4), .textEng p:nth-child(4) {
-    width: 80vw;
+    width: 69vw;
     opacity: 0;
     -webkit-animation: type2 2s steps(80, end);
     animation: type2 2s steps(40, end);
@@ -100,7 +101,7 @@ body{
     animation-fill-mode: forwards;
   }
   .textSwe p:nth-child(5), .textEng p:nth-child(5) {
-    width:32  vw;
+    width:29vw;
     opacity: 0;
     -webkit-animation: type3 5s steps(20, end), blink .5s step-end infinite alternate;
     animation: type3 2s steps(20, end), blink .5s step-end infinite alternate;
@@ -108,6 +109,7 @@ body{
     animation-delay: 6s;
     -webkit-animation-fill-mode: forwards;
     animation-fill-mode: forwards;
+    margin-top:3vh;
   }
   #buttons{
     display: flex;
