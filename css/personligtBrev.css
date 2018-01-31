@@ -100,7 +100,7 @@ body{
     animation-fill-mode: forwards;
   }
   .textSwe p:nth-child(5), .textEng p:nth-child(5) {
-    width:32vw;
+    width:32  vw;
     opacity: 0;
     -webkit-animation: type3 5s steps(20, end), blink .5s step-end infinite alternate;
     animation: type3 2s steps(20, end), blink .5s step-end infinite alternate;
