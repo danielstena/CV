@@ -32,8 +32,7 @@ hr
 {
     width:100%;
     height:2em;
-    margin-top: 5em;
-    margin: auto;
+    margin-top: 15vh;
     background-color: rgb(182, 180, 180);
     display: flex;
     flex-direction:row;
@@ -78,10 +77,10 @@ hr
     font-family: 'Gilda Display', serif;
 }
 #leftbox h2{
-    font-size: 4vh;
+    font-size: 3.6vh;
 }
 #leftbox h3{
-    font-size: 2.2vh;
+    font-size: 2vh;
 }
 .rightboxarbeten{
     margin-top:30px;
@@ -90,10 +89,10 @@ hr
     margin-top:10%;
 }
 .rightboxadress h2, .rightboxpersonuppgifter h2, .rightboxarbeten h2{
-    font-size: 3.8vh;
+    font-size: 3.6vh;
 }
 .rightboxadress h4, .rightboxpersonuppgifter h4{
-    font-size: 2vh;
+    font-size: 1.8vh;
 }
 .rightboxpersonuppgifter, .rightboxadress{
     margin-top:10%;
@@ -104,27 +103,27 @@ hr
     width:30%;
     display:flex;
     flex-direction: column;
-    height:120vh;
     text-align: center;
 }
 #rightbox > div > img{
     width:100%;
     height:100%;
     border-radius: 30%;
-    margin-top:10vh;
-    margin-bottom: 10vh;
+    margin-top:5vh;
+    margin-bottom: 5vh;
     border:1px solid rgb(182, 180, 180);
 }
 #rightboxtext
 {
     background-color: rgb(182, 180, 180);
     width:100%;
-    height: 240vw;
+    height: 2000px;
     margin-top: 10%;
     margin-bottom:2200px;
 }   
 .rightboxarbeten{
     margin-bottom:20px;
+    height: 15vh;
 }
 .font{
     color:blue;
@@ -135,7 +134,7 @@ hr
     text-align: center;
     font-family: 'Gilda Display', serif;
     background-color: rgb(182, 180, 180);
-    margin-top:35vh;
+    margin-top:45vh;
     margin-bottom:5px;
     padding: 5px 0px 5px 0px;
 }
